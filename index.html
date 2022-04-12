@@ -6,45 +6,56 @@
     <title>Сайт о стихах</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' href="styles/bootstrap.min.css">
-    <link rel='stylesheet' href="reset.css">
     <link rel='stylesheet' href="styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <ul class="menu">
-                <li class="menu__item"><a class="menu__line" href="">Главная</a></li>
-                <li class="menu__item"><a class="menu__line" href="">Стихи</a></li>
-                <li class="menu__item"><a class="menu__line" href="">Об авторе</a></li>
+            <div class="container">
+            <ul class="menu row row-cols-auto justify-content-center list-unstyled">
+                <li class="menu__item col"><a class="menu__line" href="">Главная</a></li>
+                <li class="menu__item col"><a class="menu__line" href="">Стихи</a></li>
+                <li class="menu__item col"><a class="menu__line" href="">Об авторе</a></li>
             </ul>
+        </div>
+        </div>
         </nav>
     </header>
     <main>
         <section class="first screen">
-            <img class="first screen__img" src="https://via.placeholder.com/300x300/999999/211f1f.jpg" alt="Картинка1">
-            <h1 class="first screen__title">Сборник стихов</h1>
-            <h1 class="first screen__title">Имя Фамилия</h1>
+            <div class="container">
+            <div class="row">
+            <img class="first screen__img col" src="https://via.placeholder.com/300x300/999999/211f1f.jpg" alt="Картинка1">
+            <h1 class="first screen__title col align-self-center">Сборник стихов<br>Имя Фамилия</h1>
+            </div>
+            </div>
         </section>
         <section class="themes">
-            <ul class="themes__list">
-                <li class="themes__item"><a class="themes__line" href=""><h2 class="themes__title">Родина</h2><p class="themes__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></a></li>
-                <li class="themes__item"><a class="themes__line" href=""><h2 class="themes__title">О любви</h2><p class="themes__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></a></li>
-                <li class="themes__item"><a class="themes__line" href=""><h2 class="themes__title">Философское</h2><p class="themes__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></a></li>
-                <li class="themes__item"><a class="themes__line" href=""><h2 class="themes__title">Эссе</h2><p class="themes__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></a></li>
+            <div class="container">
+            <ul class="themes__list row row-cols-2 list-unstyled">
+                <li class="themes__item col"><a class="themes__line" href=""><h2 class="themes__title">Родина</h2><p class="themes__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></a></li>
+                <li class="themes__item col"><a class="themes__line" href=""><h2 class="themes__title">О любви</h2><p class="themes__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></a></li>
+                <li class="themes__item col"><a class="themes__line" href=""><h2 class="themes__title">Философское</h2><p class="themes__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></a></li>
+                <li class="themes__item col"><a class="themes__line" href=""><h2 class="themes__title">Эссе</h2><p class="themes__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></a></li>
             </ul>
+            </div>
         </section>
         <section class="word">
-            <h2 class="word__title">Слово автора</h2>
-            <p class="word__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut velit iure ducimus repellendus quam blanditiis ipsa autem optio, tempora, perferendis deserunt! Iste fugiat optio recusandae. Placeat optio natus illo assumenda!</p>
-            <p class="word__sign">Имя Фамилия</p>
-            <img class="word__img" src="https://via.placeholder.com/400x400/999999/211f1f.jpg" alt="Картинка2">
+            <div class="container">
+            <div class="row">
+            <h2 class="word__title col">Слово автора</h2>
+            <p class="word__text col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut velit iure ducimus repellendus quam blanditiis ipsa autem optio, tempora, perferendis deserunt! Iste fugiat optio recusandae. Placeat optio natus illo assumenda!</p>
+            <p class="word__sign col">Имя Фамилия</p>
+            <img class="word__img col" src="https://via.placeholder.com/400x400/999999/211f1f.jpg" alt="Картинка2">
+            </div>
+            </div>
         </section>
     </main>
     <footer>
-        <h3 class="title-lower">Контакты</h3><br>
-        <p class="text-lower">Label@label.lable</p><br>
-        <p class="text-lower">Label +79999999</p><br>
-        <p class="text-lower">Label label label text</p><br>
+        <h3 class="title-lower">Контакты</h3>
+        <p class="text-lower">Label@label.lable</p>
+        <p class="text-lower">Label +79999999</p>
+        <p class="text-lower">Label label label text</p>
         <ul class="menu-lower">
             <li class="menu-lower_item"><a class="menu-lower__line" href="">Главная</a></li>
             <li class="menu-lower_item"><a class="menu-lower__line" href="">Стихи</a></li>

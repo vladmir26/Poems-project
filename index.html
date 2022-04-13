@@ -22,11 +22,11 @@
         </nav>
     </header>
     <main>
-        <section class="first screen">
+        <section class="first-screen">
             <div class="container">
             <div class="row">
-            <img class="first screen__img col" src="https://via.placeholder.com/300x300/999999/211f1f.jpg" alt="Картинка1">
-            <h1 class="first screen__title col align-self-center">Сборник стихов<br>Имя Фамилия</h1>
+            <div class="col"><img class="first-screen__img" src="https://via.placeholder.com/600x600/999999/211f1f.jpg" alt="Картинка1"></div>
+            <h1 class="first-screen__title col align-self-center">Сборник стихов<br>Имя Фамилия</h1>
             </div>
             </div>
         </section>
@@ -43,25 +43,38 @@
         <section class="word">
             <div class="container">
             <div class="row">
-            <h2 class="word__title col">Слово автора</h2>
-            <p class="word__text col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut velit iure ducimus repellendus quam blanditiis ipsa autem optio, tempora, perferendis deserunt! Iste fugiat optio recusandae. Placeat optio natus illo assumenda!</p>
-            <p class="word__sign col">Имя Фамилия</p>
-            <img class="word__img col" src="https://via.placeholder.com/400x400/999999/211f1f.jpg" alt="Картинка2">
+            <div class="col">
+            <h2 class="word__title">Слово автора</h2>
+            <p class="word__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut velit iure ducimus repellendus quam blanditiis ipsa autem optio, tempora, perferendis deserunt! Iste fugiat optio recusandae. Placeat optio natus illo assumenda!</p>
+            <p class="word__sign">Имя Фамилия</p>
+            </div>
+            <div class="col"><img class="word__img" src="https://via.placeholder.com/400x400/999999/211f1f.jpg" alt="Картинка2"></div>
             </div>
             </div>
         </section>
     </main>
     <footer>
+        <div class="container">
+        <div class="row">
+        <div class="col">
         <h3 class="title-lower">Контакты</h3>
         <p class="text-lower">Label@label.lable</p>
         <p class="text-lower">Label +79999999</p>
         <p class="text-lower">Label label label text</p>
-        <ul class="menu-lower">
-            <li class="menu-lower_item"><a class="menu-lower__line" href="">Главная</a></li>
-            <li class="menu-lower_item"><a class="menu-lower__line" href="">Стихи</a></li>
-            <li class="menu-lower_item"><a class="menu-lower__line" href="">Об авторе</a></li>
+        </div>
+        <div class="col">
+        <ul class="menu-lower list-unstyled">
+            <li class="menu-lower_item"><a class="menu-lower__line" href="">Родина</a></li>
+            <li class="menu-lower_item"><a class="menu-lower__line" href="">О любви</a></li>
+            <li class="menu-lower_item"><a class="menu-lower__line" href="">Философское</a></li>
+            <li class="menu-lower_item"><a class="menu-lower__line" href="">Эссе</a></li>
         </ul>
+        </div>
+        <div class="col">
         <p class="copyright">Копирайт</p>
         <a class="documents-line" href="">Правовые документы</a>
+        </div>
+        </div>
+        </div>
     </footer>
 </html>

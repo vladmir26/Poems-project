@@ -9,53 +9,50 @@
     <link rel='stylesheet' href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="container">
-            <ul class="menu row row-cols-auto justify-content-center list-unstyled">
-                <li class="menu__item col"><a class="menu__line text-decoration-none" href="">Главная</a></li>
-                <li class="menu__item col"><a class="menu__line text-decoration-none" href="">Стихи</a></li>
-                <li class="menu__item col"><a class="menu__line text-decoration-none" href="">Об авторе</a></li>
+    <header class="d-flex justify-content-center py-3">
+            <ul class="menu nav nav-pills">
+                <li class="menu__item nav-item"><a class="menu__line nav-link active" aria-current="page" href="#">Главная</a></li>
+                <li class="menu__item nav-item"><a class="menu__line nav-link" href="#">Стихи</a></li>
+                <li class="menu__item nav-item"><a class="menu__line nav-link" href="#">Об авторе</a></li>
             </ul>
-        </div>
-        </div>
-        </nav>
     </header>
     <main>
         <section class="first-screen">
-            <div class="container">
-            <div class="row">
-            <div class="col"><img class="first-screen__img" src="https://via.placeholder.com/600x600/999999/211f1f.jpg" alt="Картинка1"></div>
-            <h1 class="first-screen__title col align-self-center">Сборник стихов<br>Имя Фамилия</h1>
+            <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col col-10 col-sm-8 col-lg-6"><img class="first-screen__img d-block mx-lg-auto img-fluid" loading="lazy" src="https://via.placeholder.com/600x600/999999/211f1f.jpg" alt="Картинка1"></div>
+            <div class="col-lg-6">
+            <h1 class="first-screen__title display-5 fw-bold lh-1 mb-3">Сборник стихов<br>Имя Фамилия</h1>
+            </div>
             </div>
             </div>
         </section>
         <section class="themes">
-            <div class="container">
+            <div class="container bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <ul class="themes__list row row-cols-2 list-unstyled">
-                <li class="themes__item col"><a class="themes__line text-decoration-none" href=""><h2 class="themes__title">Родина</h2><p class="themes__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></a></li>
-                <li class="themes__item col"><a class="themes__line text-decoration-none" href=""><h2 class="themes__title">О любви</h2><p class="themes__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></a></li>
-                <li class="themes__item col"><a class="themes__line text-decoration-none" href=""><h2 class="themes__title">Философское</h2><p class="themes__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></a></li>
-                <li class="themes__item col"><a class="themes__line text-decoration-none" href=""><h2 class="themes__title">Эссе</h2><p class="themes__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></a></li>
+                <li class="themes__item my-3 p-3"><a class="themes__line text-decoration-none" href=""><h2 class="themes__title display-5">Родина</h2><p class="themes__text lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></a></li>
+                <li class="themes__item my-3 p-3"><a class="themes__line text-decoration-none" href=""><h2 class="themes__title display-5">О любви</h2><p class="themes__text lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></a></li>
+                <li class="themes__item my-3 p-3"><a class="themes__line text-decoration-none" href=""><h2 class="themes__title display-5">Философское</h2><p class="themes__text lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></a></li>
+                <li class="themes__item my-3 p-3"><a class="themes__line text-decoration-none" href=""><h2 class="themes__title display-5">Эссе</h2><p class="themes__text lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></a></li>
             </ul>
             </div>
         </section>
         <section class="word">
-            <div class="container">
-            <div class="row">
-            <div class="col">
-            <h2 class="word__title">Слово автора</h2>
-            <p class="word__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut velit iure ducimus repellendus quam blanditiis ipsa autem optio, tempora, perferendis deserunt! Iste fugiat optio recusandae. Placeat optio natus illo assumenda!</p>
-            <p class="word__sign">Имя Фамилия</p>
+            <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-lg-6">
+            <h2 class="word__title display-5 fw-bold lh-1 mb-3">Слово автора</h2>
+            <p class="word__text lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut velit iure ducimus repellendus quam blanditiis ipsa autem optio, tempora, perferendis deserunt! Iste fugiat optio recusandae. Placeat optio natus illo assumenda!</p>
+            <p class="word__sign lead">Имя Фамилия</p>
             </div>
-            <div class="col"><img class="word__img" src="https://via.placeholder.com/400x400/999999/211f1f.jpg" alt="Картинка2"></div>
+            <div class="col-10 col-sm-8 col-lg-6"><img class="word__img d-block mx-lg-auto img-fluid" src="https://via.placeholder.com/400x400/999999/211f1f.jpg" alt="Картинка2" loading="lazy"></div>
             </div>
             </div>
         </section>
     </main>
     <footer>
         <div class="container">
-        <div class="row">
+        <div class="row row-cols-5 py-5 my-5 border-top">
         <div class="col">
         <h3 class="title-lower">Контакты</h3>
         <p class="text-lower">Label@label.lable</p>
@@ -63,11 +60,11 @@
         <p class="text-lower">Label label label text</p>
         </div>
         <div class="col">
-        <ul class="menu-lower list-unstyled">
-            <li class="menu-lower_item"><a class="menu-lower__line text-decoration-none" href="">Родина</a></li>
-            <li class="menu-lower_item"><a class="menu-lower__line text-decoration-none" href="">О любви</a></li>
-            <li class="menu-lower_item"><a class="menu-lower__line text-decoration-none" href="">Философское</a></li>
-            <li class="menu-lower_item"><a class="menu-lower__line text-decoration-none" href="">Эссе</a></li>
+        <ul class="menu-lower nav flex-column">
+            <li class="menu-lower_item nav-item mb-2"><a class="menu-lower__line nav-link p-0 text-muted" href="">Родина</a></li>
+            <li class="menu-lower_item nav-item mb-2"><a class="menu-lower__line nav-link p-0 text-muted" href="">О любви</a></li>
+            <li class="menu-lower_item nav-item mb-2"><a class="menu-lower__line nav-link p-0 text-muted" href="">Философское</a></li>
+            <li class="menu-lower_item nav-item mb-2"><a class="menu-lower__line nav-link p-0 text-muted" href="">Эссе</a></li>
         </ul>
         </div>
         <div class="col">

@@ -1,0 +1,52 @@
+
+.nav-link {
+    color: black;
+}
+.nav-link:hover {
+    color: blue;
+}
+.menu__item {
+    position: relative;
+}
+.menu__item:hover .inner-menu .inner-menu__link {
+    transform: translateX(0);
+    opacity: 1;
+}
+.menu__item:hover .inner-menu {
+    display: block;
+    background: lightblue;
+}
+.inner-menu {
+    position: absolute;
+    left: 0;
+    padding: 5px 15px;
+    list-style: none;
+    white-space: nowrap;
+    
+}
+
+.inner-menu__link {
+    display: inline-block;
+    text-decoration: none;
+    transform: translateX(-15px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+.inner-menu__link:nth-child(2),
+.inner-menu__link:nth-child(3) {
+    transition-delay: .5s;
+}
+.inner-menu__link:nth-child(4) {
+    transition-delay: 1s;
+}
+
+
+
+.themes__line {
+   color: black;
+   display:block;
+}
+
+.themes__line:hover {
+    color: blue;
+}

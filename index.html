@@ -6,10 +6,13 @@
     <title>Сайт о стихах</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel='stylesheet' href="styles.css">
 </head>
 <body>
     <header class="d-flex justify-content-center py-3">
+        <div data-aos="fade-down"
+     data-aos-duration="3000">
             <ul class="menu nav nav-pills">
                 <li class="menu__item nav-item"><a class="menu__line nav-link active" aria-current="page" href="#">Главная</a></li>
                 <li class="menu__item nav-item">
@@ -23,14 +26,25 @@
                 </li>
                 <li class="menu__item nav-item"><a class="menu__line nav-link" href="#">Об авторе</a></li>
             </ul>
+            </div>
     </header>
     <main>
         <section class="first-screen">
             <div class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col col-10 col-sm-8 col-lg-6"><img class="first-screen__img d-block mx-lg-auto img-fluid" loading="lazy" src="img/Картинка 1.jpg" alt="Картинка1"></div>
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5 justify-content-sm-center">
+            <div class="col col-10 col-sm-8 col-lg-6">
+            <div data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+           <img class="first-screen__img d-block mx-lg-auto img-fluid" loading="lazy" src="img/Картинка 1.jpg" alt="Картинка1">
+            </div>
+            </div>
             <div class="col-lg-6">
+            <div data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
             <h1 class="first-screen__title display-5 fw-bold lh-1 mb-3">Поэзия и проза<br>Григория Байбакова</h1>
+            </div>
             </div>
             </div>
             </div>
@@ -38,10 +52,26 @@
         <section class="themes">
             <div class="bg-light me-md-3 text-center overflow-hidden">
             <ul class="themes__list row row-cols-2 list-unstyled">
-                <li class="themes__item my-3"><a class="themes__line pt-3 px-3 pt-md-5 px-md-5 p-3 text-decoration-none" href=""><h2 class="themes__title display-5">Родина</h2><p class="themes__text lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></a></li>
-                <li class="themes__item my-3"><a class="themes__line pt-3 px-3 pt-md-5 px-md-5 p-3 text-decoration-none" href=""><h2 class="themes__title display-5">О любви</h2><p class="themes__text lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></a></li>
-                <li class="themes__item my-3"><a class="themes__line pt-3 px-3 pt-md-5 px-md-5 p-3 text-decoration-none" href=""><h2 class="themes__title display-5">Философское</h2><p class="themes__text lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></a></li>
-                <li class="themes__item my-3"><a class="themes__line pt-3 px-3 pt-md-5 px-md-5 p-3 text-decoration-none" href=""><h2 class="themes__title display-5">Проза и эссе</h2><p class="themes__text lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></a></li>
+                <li class="themes__item my-3"><a class="themes__line pt-3 px-3 pt-md-5 px-md-5 p-3 text-decoration-none" href=""> 
+                 <div data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                <h2 class="themes__title display-5">Родина</h2><p class="themes__text lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></div></a></li>
+                <li class="themes__item my-3"><a class="themes__line pt-3 px-3 pt-md-5 px-md-5 p-3 text-decoration-none" href=""> 
+                 <div data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"><h2 class="themes__title display-5">О любви</h2><p class="themes__text lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></div></a></li>
+                <li class="themes__item my-3"><a class="themes__line pt-3 px-3 pt-md-5 px-md-5 p-3 text-decoration-none" href=""> 
+                 <div data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"><h2 class="themes__title display-5">Философское</h2><p class="themes__text lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></div></a></li>
+                <li class="themes__item my-3"><a class="themes__line pt-3 px-3 pt-md-5 px-md-5 p-3 text-decoration-none" href=""> 
+                 <div data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"><h2 class="themes__title display-5">Проза и эссе</h2><p class="themes__text lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p>
+                </div>
+            </a>
+            </li>
             </ul>
             </div>
         </section>
@@ -49,9 +79,13 @@
             <div class="container col-xxl-8 px-4 py-5">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-lg-6">
+            <div data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
             <h2 class="word__title display-5 fw-bold lh-1 mb-3">Слово автора</h2>
             <p class="word__text lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut velit iure ducimus repellendus quam blanditiis ipsa autem optio, tempora, perferendis deserunt! Iste fugiat optio recusandae. Placeat optio natus illo assumenda!</p>
             <p class="word__sign lead">Имя Фамилия</p>
+            </div>
             </div>
             <div class="col-10 col-sm-8 col-lg-6"><img class="word__img d-block mx-lg-auto img-fluid" src="https://via.placeholder.com/400x400/999999/211f1f.jpg" alt="Картинка2" loading="lazy"></div>
             </div>
@@ -59,6 +93,8 @@
         </section>
     </main>
     <footer>
+        <div data-aos="fade-down"
+        data-aos-duration="3000">
         <div class="container">
         <div class="row py-5 my-5 border-top">
         <div class="col">
@@ -81,5 +117,11 @@
         </div>
         </div>
         </div>
+        </div>
     </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
 </html>

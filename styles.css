@@ -22,6 +22,7 @@
 }
 
 .inner-menu__link {
+    color: black;
     display: inline-block;
     text-decoration: none;
     transform: translateX(-15px);
@@ -53,3 +54,13 @@
 .themes__line:hover {
     color: blue;
 }
+.menu-lower__line {
+    color: grey;
+}
+.telegram-icon {
+    opacity: .4;
+} 
+.telegram-icon:hover {
+    opacity: 1;
+}
+

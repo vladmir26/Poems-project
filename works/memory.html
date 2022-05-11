@@ -5,8 +5,9 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Философская поэзия</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' href="styles/bootstrap.min.css">
-    <link rel='stylesheet' href="styles.css">
+    <link rel='stylesheet' href="../styles/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel='stylesheet' href="../styles.css">
 </head>
 <body>
     <header class="d-flex justify-content-center py-3">
@@ -17,10 +18,10 @@
                 <li class="menu__item nav-item">
                 <a class="menu__line line nav-link" href="#">Стихи</a>
                 <ul class="inner-menu">
-                    <li class="inner-menu__item"><a class="inner-menu__link" href="motherland.html">Родина</a></li>
-                    <li class="inner-menu__item"><a class="inner-menu__link" href="love.html">О любви</a></li>
-                    <li class="inner-menu__item"><a class="inner-menu__link" href="philosophical.html">Философское</a></li>
-                    <li class="inner-menu__item"><a class="inner-menu__link" href="essay.html">Проза и эссе</a></li>
+                    <li class="inner-menu__item"><a class="inner-menu__link" href="../sections/motherland.html">Родина</a></li>
+                    <li class="inner-menu__item"><a class="inner-menu__link" href="../sections/love.html">О любви</a></li>
+                    <li class="inner-menu__item"><a class="inner-menu__link" href="../sections/philosophical.html">Философская поэзия</a></li>
+                    <li class="inner-menu__item"><a class="inner-menu__link" href="../sections/essay.html">Проза и эссе</a></li>
                 </ul>
                 </li>
                 <li class="menu__item line nav-item"><a class="menu__line line nav-link" href="#">Об авторе</a></li>
@@ -30,8 +31,7 @@
     <main>
         <section class="philosophical">
             <div class="container text-center">
-                <h1 class="row">Философская поэзия</h1>
-                <h2 class="col">Памяти павших</h2>
+                <h1 class="row">Памяти павших</h1>
                 <pre class="col">
 Однажды проснется Будда,
 Однажды придет Иисус,
@@ -88,10 +88,10 @@
         </div>
         <div class="col-12 col-md-4 mb-4 mb-md-0 align-self-start">
         <ul class="menu-lower nav flex-column text-center">
-            <li class="menu-lower_item nav-item mb-2"><a class="menu-lower__line line nav-link p-0 text-muted" href="">Родина</a></li>
-            <li class="menu-lower_item nav-item mb-2"><a class="menu-lower__line line nav-link p-0 text-muted" href="">О любви</a></li>
-            <li class="menu-lower_item nav-item mb-2"><a class="menu-lower__line line nav-link p-0 text-muted" href="">Философское</a></li>
-            <li class="menu-lower_item nav-item mb-2"><a class="menu-lower__line line nav-link p-0 text-muted" href="">Эссе</a></li>
+            <li class="menu-lower_item nav-item mb-2"><a class="menu-lower__line line nav-link p-0" href="../sections/motherland.html">Родина</a></li>
+            <li class="menu-lower_item nav-item mb-2"><a class="menu-lower__line line nav-link p-0" href="../sections/love.html">О любви</a></li>
+            <li class="menu-lower_item nav-item mb-2"><a class="menu-lower__line line nav-link p-0" href="../sections/philosophical.html">Философская поэзия</a></li>
+            <li class="menu-lower_item nav-item mb-2"><a class="menu-lower__line line nav-link p-0" href="../sections/essay.html">Эссе</a></li>
         </ul>
         </div>
         <div class="col-12 col-md-4 text-center text-md-end">
@@ -102,5 +102,9 @@
         </div>
         </div>
     </footer> 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

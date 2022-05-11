@@ -5,20 +5,21 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Родина</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' href="styles\bootstrap.min.css">
-    <link rel='stylesheet' href="styles.css">
+    <link rel='stylesheet' href="../styles/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel='stylesheet' href="../styles.css">
 </head>
 <body>
     <header class="d-flex justify-content-center py-3">
         <div data-aos="fade-down"
      data-aos-duration="3000">
             <ul class="menu nav nav-pills">
-                <li class="menu__item nav-item"><a class="menu__line line nav-link active" aria-current="page" href="index.html">Главная</a></li>
+                <li class="menu__item nav-item"><a class="menu__line line nav-link active" aria-current="page" href="../index.html">Главная</a></li>
                 <li class="menu__item nav-item">
                 <a class="menu__line line nav-link" href="#">Стихи</a>
                 <ul class="inner-menu">
-                    <li class="inner-menu__item"><a class="inner-menu__link" href=".html">Родина</a></li>
-                    <li class="inner-menu__item"><a class="inner-menu__link" href=".html">О любви</a></li>
+                    <li class="inner-menu__item"><a class="inner-menu__link" href="#">Родина</a></li>
+                    <li class="inner-menu__item"><a class="inner-menu__link" href="love.html">О любви</a></li>
                     <li class="inner-menu__item"><a class="inner-menu__link" href="philosophical.html">Философская поэзия</a></li>
                     <li class="inner-menu__item"><a class="inner-menu__link" href="essay.html">Проза и эссе</a></li>
                 </ul>
@@ -29,12 +30,23 @@
     </header>
     <section class="themes">
     <div class="bg-light me-md-3 text-center overflow-hidden">
+        <h1>Родина</h1>
         <ul class="themes__list row row-cols-12 row-cols-md-2 list-unstyled">
-            <li class="themes__item my-3"><a class="themes__line line pt-3 px-3 pt-md-5 px-md-5 p-3 text-decoration-none" href=""> 
+            <li class="themes__item my-3">
              <div data-aos="fade-right"
                 data-aos-offset="300"
-                data-aos-easing="ease-in-sine">
-            <h2 class="themes__title display-5">Родина</h2><p class="themes__text lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit aut at debitis nobis incidunt quaerat, maxime optio, voluptatem dolore sequi doloremque a tempore ex odit deleniti quia dolorem? Ratione.</p></div></a></li>
+                data-aos-easing="ease-in-sine"> <a class="themes__line line pt-3 px-3 pt-md-5 px-md-5 p-3 text-decoration-none" href="../works/ballad.html"> 
+            <h2 class="themes__title display-5">Баллада о Президенте Путине</h2><p class="themes__text lead">То не шорох шин за Кремлем,
+
+                То не призраки Лобного места,
+                
+                Богатырский то занят трон
+                
+                Владимиром - до-конца
+                
+                Неизвестным.</p>
+                <p>Читать далее...</p>
+            </div></a></li>
             <li class="themes__item my-3"><a class="themes__line line pt-3 px-3 pt-md-5 px-md-5 p-3 text-decoration-none" href=""> 
              <div data-aos="fade-left"
                 data-aos-offset="300"
@@ -53,5 +65,41 @@
         </ul>
     </div>
     </section>
+    <footer>
+        <div data-aos="fade-down"
+        data-aos-duration="3000">
+        <div class="container">
+        <div class="row py-5 my-5 border-top">
+        <div class="col-12 col-md-4 mb-4 mb-md-0 text-center text-md-start ">
+        <h3 class="title-lower">Контакты</h3>
+        <p class="text-lower">Label@label.lable</p>
+        <p class="text-lower">Label +79999999</p>
+        <p class="text-lower">Label label label text</p>
+        <a href="https://t.me/baybakovgrigory" title="Telegram" class="telegram-icon">
+        <svg width="50" height="50" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M256 440C357.62 440 440 357.62 440 256C440 154.38 357.62 72 256 72C154.38 72 72 154.38 72 256C72 357.62 154.38 440 256 440ZM316 166L301.648 315.191L247.197 292.06L225.962 329L212.434 277.045L151 273.048L316 166ZM214.721 276.271L226.614 321.951L240.207 287.141L291.353 201.155L214.721 276.271Z" fill="#1E98D3"/>
+        </svg>
+        </a>
+        </div>
+        <div class="col-12 col-md-4 mb-4 mb-md-0 align-self-start">
+        <ul class="menu-lower nav flex-column text-center">
+            <li class="menu-lower_item nav-item mb-2"><a class="menu-lower__line line nav-link p-0" href="">Родина</a></li>
+            <li class="menu-lower_item nav-item mb-2"><a class="menu-lower__line line nav-link p-0" href="">О любви</a></li>
+            <li class="menu-lower_item nav-item mb-2"><a class="menu-lower__line line nav-link p-0" href="">Философская поэзия</a></li>
+            <li class="menu-lower_item nav-item mb-2"><a class="menu-lower__line line nav-link p-0" href="">Эссе</a></li>
+        </ul>
+        </div>
+        <div class="col-12 col-md-4 text-center text-md-end">
+        <p class="copyright">Копирайт</p>
+        <a class="documents-line line text-decoration-none" href="">Правовые документы</a>
+        </div>
+        </div>
+        </div>
+        </div>
+    </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

@@ -70,3 +70,12 @@
 .motherland__ball {
     margin-top: 50px;
 }
+
+@media screen and (max-width: 767px) {
+    .motherland__video {
+        width: 500px;
+        height: 400px;
+    }
+
+    
+}
